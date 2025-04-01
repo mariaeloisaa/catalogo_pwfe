@@ -1,0 +1,9 @@
+.conteiner{
+    background-color:#7c3454;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

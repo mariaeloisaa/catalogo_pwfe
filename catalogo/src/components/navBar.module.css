@@ -1,0 +1,14 @@
+.conteiner{
+    padding: 10px;
+    background-color: #bc5484;
+
+}
+
+.conteiner ul{
+    color: white;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    justify-self: center;
+    
+}
