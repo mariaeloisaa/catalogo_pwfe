@@ -1,9 +1,10 @@
 import estilo from './main.module.css'
+import { Lista } from './lista'
 
 export function Main(){
     return(
         <main className={estilo.conteiner}>
-            <h2>Conteudooo</h2>
+            <Lista/>
         </main>
     )
 }
