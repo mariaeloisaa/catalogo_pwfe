@@ -1,14 +1,53 @@
 .conteiner{
     padding: 10px;
     background-color: #bc5484;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 
 }
 
 .conteiner ul{
+    text-decoration: none;
     color: white;
     display: flex;
-    gap: 40px;
+    gap: 2rem;
+    list-style: none;
     list-style-type: none;
     justify-self: center;
     
 }
+
+
+  
+.conteiner li {
+position: relative;
+font-size: 1.1rem;
+cursor: pointer;
+padding: 0.5rem 0;
+transition: color 0.3s ease;
+text-decoration: None;
+color: white;
+}
+
+.conteiner li::after {
+content: '';
+position: absolute;
+width: 0;
+height: 3px;
+left: 0;
+bottom: 0;
+background-color: #fc901c; 
+transition: width 0.3s ease;
+}
+
+.conteiner li:hover::after {
+width: 100%;
+}
+
+.conteiner li:hover {
+color: #7c3454;
+}
+

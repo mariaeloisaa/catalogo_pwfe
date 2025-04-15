@@ -1,4 +1,5 @@
-import estilo from './navBar.module.css'
+import estilo from './navBar.module.css';
+import { Link } from 'react-router-dom';
 
 export function NavBar(){
     //eu so posso retornar 1 componente
@@ -7,9 +8,9 @@ export function NavBar(){
         <>
             <nav className={estilo.conteiner}>
                 <ul>
-                    <li>HOME</li>
-                    <li>SERIES</li>
-                    <li>PERFIL</li>
+                    <Link to="/"><li>Home</li></Link>
+                    <Link to="serie"><li>Series</li></Link>
+                    <Link to="perfil"><li>Perfil</li></Link>
                 </ul>
             </nav>
         </>

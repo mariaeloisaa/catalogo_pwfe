@@ -24,6 +24,7 @@ img {
 h3 {
     position: relative;
     top: 15px;
+    color: white;
 }
 
 p {
@@ -31,10 +32,10 @@ p {
     position: relative;
     padding-top: 50px;
     width: 250px;
+    color: white;
 }
 
-/* Efeito de hover para aumentar o card e aplicar sombra */
 .conteiner:hover {
-    transform: scale(1.05); /* Aumenta o tamanho do card */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
