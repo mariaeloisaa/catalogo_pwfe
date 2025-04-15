@@ -8,6 +8,9 @@
     color: white;
     margin-top: 40px;
     
+    p{
+        width: 300px;
+    }
 
     a{
         text-decoration: none;

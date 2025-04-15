@@ -8,7 +8,7 @@ export function NavBar(){
             <nav className={estilo.conteiner}>
                 <ul>
                     <li>HOME</li>
-                    <li>FILMES</li>
+                    <li>SERIES</li>
                     <li>PERFIL</li>
                 </ul>
             </nav>
