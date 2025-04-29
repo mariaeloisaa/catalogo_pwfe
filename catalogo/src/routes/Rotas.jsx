@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "../pages/home";
 import { Lista } from "../components/lista";
 import { Perfil } from "../pages/perfil";
-import { Series } from "../pages/series";
+import { Favoritos } from "../pages/favoritos";
 
 export function Rotas(){
     return(
@@ -10,7 +10,7 @@ export function Rotas(){
         <Route path ='/' element={<Home/>}>
             <Route index element={<Lista/>}/>
             <Route path ='perfil' element={<Perfil/>}/>
-            <Route path ='serie' element={<Series/>}/>
+            <Route path ='favoritos' element={<Favoritos/>}/>
         </Route>
     </Routes>
     )

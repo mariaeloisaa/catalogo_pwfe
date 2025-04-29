@@ -7,9 +7,10 @@ export function Home(){
 
     return(
         <>
+
             <Header/>
             <NavBar/>
-             <Outlet/> 
+            <Outlet/> 
             <Footer/>
         </>
         

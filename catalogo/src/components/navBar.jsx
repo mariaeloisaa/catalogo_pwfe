@@ -9,7 +9,7 @@ export function NavBar(){
             <nav className={estilo.conteiner}>
                 <ul>
                     <Link to="/"><li>Home</li></Link>
-                    <Link to="serie"><li>Series</li></Link>
+                    <Link to="favoritos"><li>Favoritos</li></Link>
                     <Link to="perfil"><li>Perfil</li></Link>
                 </ul>
             </nav>

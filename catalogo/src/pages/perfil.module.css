@@ -1,11 +1,81 @@
-.conteiner{
-    /* background-color:#7c3454; */
-    height: 100%;
-    color: white;
-    margin-top: 15px;
-    padding: 10px;
+.container {
     display: flex;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffe3ee;
+    color: #f0f0f0;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 60px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    gap: 40px;
+}
+  
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    gap: 40px;
+}
+  
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #fc901c;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+  
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+  
+.botoes button {
+    padding: 10px;
+    background-color: #fc901c;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.botoes button:hover {
+    background-color: #e47c00;
+}
+  
+.info {
+    flex: 1;
+    position: relative;
+    margin-left: 40px;
+    padding-top: 30px;
+    
+}
+  
+.info h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #bc5484;
+    position: relative;
+    text-align: left;
+}
+  
+.info strong {
+    margin-right: 6px;
+}
+
+
+.info p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    position: relative;
+    width: 500px;
 
 }
