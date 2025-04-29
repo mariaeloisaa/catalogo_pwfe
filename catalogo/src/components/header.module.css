@@ -10,6 +10,11 @@
     justify-content: space-between;
     padding-left: 4rem;
     padding-right: 4rem;
+
+    /*background-image: url('../assets/fundo_coracao.avif'); /* Caminho da imagem */
+    /*background-size: cover;         /* Faz a imagem cobrir toda a tela */
+    /*background-position: center;    /* Centraliza a imagem */
+    /*background-repeat: no-repeat;   /* Evita repetição da imagem */
 }
 
 h1{

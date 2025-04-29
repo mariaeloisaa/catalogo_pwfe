@@ -79,3 +79,17 @@
     width: 500px;
 
 }
+
+.filmes {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 25px;
+}
+  
+.filmes img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
