@@ -10,15 +10,14 @@ O projeto tem como objetivo demonstrar conhecimentos de desenvolvimento front-en
 
 - [React](https://reactjs.org/)
 - HTML5
-- CSS3
-- JavaScript (ES6+)
-- (opcional) [Axios](https://axios-http.com/) – para requisições HTTP
-- (opcional) [React Router](https://reactrouter.com/) – para navegação entre páginas
+- CSS
+- JavaScript
+- React Router – para navegação entre páginas
 
 ## 📸 Funcionalidades
 
 - Visualização de uma lista de filmes
 - Exibição de imagem, nome e descrição de cada filme
-- (Melhoria) Página de detalhes para cada filme
-- (Melhoria) Filtro ou busca por nome do filme
+- Modal de detalhes para cada filme
+
 
