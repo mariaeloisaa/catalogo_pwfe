@@ -8,16 +8,18 @@ O projeto tem como objetivo demonstrar conhecimentos de desenvolvimento front-en
 
 ## 🚀 Tecnologias Utilizadas
 
-- [React](https://reactjs.org/)
-- HTML5
+- React
+- HTML
 - CSS
 - JavaScript
 - React Router – para navegação entre páginas
+- Axios – para requisições HTTP
 
 ## 📸 Funcionalidades
 
-- Visualização de uma lista de filmes
+- Visualização de uma lista de filmes (Home e Favoritos)
 - Exibição de imagem, nome e descrição de cada filme
 - Modal de detalhes para cada filme
+- Perfil
 
 
